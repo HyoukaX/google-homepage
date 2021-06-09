@@ -16,6 +16,10 @@ body {
     margin-right: auto;
 }
 
+#empty-space-logo-bar {
+    display: flex;
+    height: 2vh;
+}
 #search-box {
     display: inline-flex;
     justify-content: center;
@@ -36,4 +40,8 @@ body {
 
 #search-icon {
     color: #9aa0a6;
+}
+
+.button {
+    margin: 2em 1em 0em 1em;
 }
