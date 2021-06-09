@@ -4,16 +4,20 @@ body {
 
 /* Search box */
 
+#empty-space {
+    display: flex;
+    height: 20vh;
+}
+
 #google-logo {
     display: block;
-    width:50vw;
+    width:40vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 #search-box {
-    display: flex;
-    background-color:;
+    display: inline-flex;
     justify-content: center;
     text-align: center;
     border: 1px solid #dfe1e5;
@@ -21,8 +25,13 @@ body {
     padding: 5px;
 }
 
+#search-form {
+    text-align: center;
+}
+
 #search {
-    width: 527px;
+    width: 42vw;
+    border: hidden;
 }
 
 #search-icon {
