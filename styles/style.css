@@ -1,6 +1,44 @@
 body {
     font-family: arial,sans-serif;
 }
+/* Nav Bar */
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding:10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #222;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#more-icon {
+    width:1.5em;
+    height:1.5em;
+    align-self: top;
+    fill:#5f6368;
+    border: solid white 10px;
+    border-radius: 50%;
+}
+#more-icon:hover {
+    border: solid rgba(60,64,67,0.08) 10px;
+    border-radius: 50%;
+}
+
+.fill-space-nav {
+    flex:auto;
+}
 
 /* Search box */
 
