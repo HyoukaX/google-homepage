@@ -28,12 +28,24 @@ body {
     height:1.5em;
     align-self: top;
     fill:#5f6368;
-    border: solid white 10px;
+    border: solid white 8px;
     border-radius: 50%;
 }
 #more-icon:hover {
-    border: solid rgba(60,64,67,0.08) 10px;
+    border: solid rgba(60,64,67,0.08) 8px;
     border-radius: 50%;
+    background-color: rgba(60,64,67,0.08);
+}
+
+.avatar {
+    border-radius: 50%;
+    border: solid white 8px;
+}
+
+.avatar:hover {
+    border: solid rgba(60,64,67,0.08) 8px;
+    border-radius: 50%;
+    background-color: rgba(60,64,67,0.08);    
 }
 
 .fill-space-nav {
@@ -83,3 +95,5 @@ body {
 .button {
     margin: 2em 1em 0em 1em;
 }
+
+/* Footer Bar */
